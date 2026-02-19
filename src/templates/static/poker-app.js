@@ -186,11 +186,33 @@ function createSolverLinkSection(detection, isUpdate) {
     `;
 }
 
+function createPreflopAdviceSection(detection, isUpdate) {
+    if (!detection.preflop_advice) {
+        return '';
+    }
+
+    const advice = detection.preflop_advice;
+    const blockClass = isUpdate ? 'preflop-advice-block new-preflop-advice' : 'preflop-advice-block';
+
+    return `
+        <div class="cards-section">
+            <div class="cards-label">Preflop Advice:</div>
+            <div class="${blockClass}">
+                <div class="preflop-advice-summary">${advice.summary}</div>
+                <div class="preflop-advice-meta">
+                    ${advice.scenario} | ${advice.combo}
+                </div>
+            </div>
+        </div>
+    `;
+}
+
 function createTableContainer(detection, isUpdate) {
     const tableClass = isUpdate ? 'table-container updated' : 'table-container';
 
     const tableCardsSection = createTableCardsSection(detection, isUpdate);
     const positionsSection = createPositionsSection(detection, isUpdate);
+    const preflopAdviceSection = createPreflopAdviceSection(detection, isUpdate);
     const movesSection = createMovesSection(detection, isUpdate);
     const solverLinkSection = createSolverLinkSection(detection, isUpdate);
 
@@ -218,6 +240,7 @@ function createTableContainer(detection, isUpdate) {
             <div class="main-cards-section">
                 ${mainCardsContent}
             </div>
+            ${preflopAdviceSection}
             ${movesSection}
             ${solverLinkSection}
         </div>
@@ -254,6 +277,9 @@ function renderCards(detections, isUpdate = false) {
             });
             document.querySelectorAll('.new-solver-link').forEach(el => {
                 el.classList.remove('new-solver-link');
+            });
+            document.querySelectorAll('.new-preflop-advice').forEach(el => {
+                el.classList.remove('new-preflop-advice');
             });
         }, 2000);
     }

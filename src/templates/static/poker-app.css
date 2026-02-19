@@ -413,3 +413,33 @@ h1 {
 .solver-link:visited {
     color: #1976d2;
 }
+
+.preflop-advice-block {
+    background-color: #3a3a3a;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #ffb300;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.preflop-advice-block.new-preflop-advice {
+    animation: newPreflopAdviceGlow 2s ease-in-out;
+}
+
+.preflop-advice-summary {
+    color: #ffca28;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.preflop-advice-meta {
+    margin-top: 6px;
+    color: #bdbdbd;
+    font-size: 12px;
+}
+
+@keyframes newPreflopAdviceGlow {
+    0% { box-shadow: 0 0 0 rgba(255, 179, 0, 0.7); }
+    50% { box-shadow: 0 0 20px rgba(255, 179, 0, 0.7); }
+    100% { box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); }
+}

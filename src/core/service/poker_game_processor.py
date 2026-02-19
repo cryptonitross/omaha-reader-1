@@ -32,10 +32,10 @@ class PokerGameProcessor:
         detected_actions = DetectUtils.get_player_actions_detection(cv2_image)
 
         is_new_game = self.game_state_service.is_new_game(window_name, detected_player_cards, detected_positions)
-        detected_bids = detect_bids(cv2_image)
+        # detected_bids = detect_bids(cv2_image)
         game_snapshot_builder = (GameSnapshot.builder().with_player_cards(detected_player_cards)
                                  .with_table_cards(detected_table_cards)
-                                 .with_bids(detected_bids)
+                                 #.with_bids(detected_bids)
                                  .with_positions(detected_positions)
                                  .with_actions(detected_actions)
                                  )

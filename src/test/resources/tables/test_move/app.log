@@ -1,0 +1,269 @@
+04:53:13 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:53:13 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:53:13 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:53:13 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:53:13 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:53:13 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:53:13 | INFO     | 53 - 🔍 Processing 4 changed/new images out of 4 total
+04:53:13 | INFO     | 90 - 
+📷 Processing image 1: 3_move_tern
+04:53:13 | INFO     | 91 - ----------------------------------------
+04:53:13 | INFO     | 49 - 📁 Created window folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move\3_move_tern
+04:53:13 | INFO     | 25 - 📁 Loading templates from: C:\Users\Home\omaha-reader\resources\templates\canada\player_cards
+04:53:13 | INFO     | 36 - ✅ Loaded 52 templates: ['2C', '2D', '2H', '2S', '3C', '3D', '3H', '3S', '4C', '4D', '4H', '4S', '5C', '5D', '5H', '5S', '6C', '6D', '6H', '6S', '7C', '7D', '7H', '7S', '8C', '8D', '8H', '8S', '9C', '9D', '9H', '9S', 'AC', 'AD', 'AH', 'AS', 'JC', 'JD', 'Jh', 'JS', 'KC', 'KD', 'KH', 'KS', 'QC', 'QD', 'QH', 'QS', 'TC', 'TD', 'TH', 'TS']
+04:53:13 | INFO     | 25 - 📁 Loading templates from: C:\Users\Home\omaha-reader\resources\templates\canada\table_cards
+04:53:13 | INFO     | 36 - ✅ Loaded 52 templates: ['2C', '2D', '2H', '2S', '3C', '3D', '3H', '3S', '4C', '4D', '4H', '4S', '5C', '5D', '5H', '5S', '6C', '6D', '6H', '6S', '7C', '7D', '7H', '7S', '8C', '8D', '8H', '8S', '9C', '9D', '9H', '9S', 'AC', 'AD', 'AH', 'AS', 'JC', 'JD', 'JH', 'JS', 'KC', 'KD', 'KH', 'KS', 'QC', 'QD', 'QH', 'QS', 'TC', 'TD', 'TH', 'TS']
+04:53:13 | INFO     | 25 - 📁 Loading templates from: C:\Users\Home\omaha-reader\resources\templates\canada\positions
+04:53:13 | INFO     | 36 - ✅ Loaded 18 templates: ['BB', 'BB_fold', 'BB_low', 'BTN', 'BTN_fold', 'BTN_fold_red', 'CO', 'CO_fold', 'EP', 'EP_fold', 'EP_low', 'folds', 'MP', 'MP_fold', 'NO', 'open_raises', 'SB', 'SB_fold']
+04:53:13 | INFO     | 54 -     ✅ Found positions:
+04:53:13 | INFO     | 56 -         P1: MP
+04:53:13 | INFO     | 56 -         P2: CO
+04:53:13 | INFO     | 56 -         P3: BTN_fold
+04:53:13 | INFO     | 56 -         P4: SB_fold
+04:53:13 | INFO     | 56 -         P5: BB_low
+04:53:13 | INFO     | 56 -         P6: EP_fold
+04:53:13 | INFO     | 25 - 📁 Loading templates from: C:\Users\Home\omaha-reader\resources\templates\canada\moves
+04:53:13 | INFO     | 36 - ✅ Loaded 4 templates: ['call_35', 'check', 'fold', 'or_35']
+04:53:13 | ERROR    | 119 - ❌ Error extracting bid text at (390, 333, 40, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:13 | ERROR    | 119 - ❌ Error extracting bid text at (200, 310, 40, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:13 | ERROR    | 119 - ❌ Error extracting bid text at (200, 212, 45, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:13 | ERROR    | 119 - ❌ Error extracting bid text at (462, 165, 45, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:13 | ERROR    | 119 - ❌ Error extracting bid text at (578, 212, 30, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:13 | ERROR    | 119 - ❌ Error extracting bid text at (578, 310, 25, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:13 | INFO     | 44 - Created new game for 3_move_tern
+04:53:13 | INFO     | 173 -     📷 Saved 3_move_tern_result.png with: 4 player_cards, 4 table_cards, 6 positions, 8 actions
+04:53:13 | INFO     | 90 - 
+📷 Processing image 2: 6_move
+04:53:13 | INFO     | 91 - ----------------------------------------
+04:53:13 | INFO     | 49 - 📁 Created window folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move\6_move
+04:53:14 | INFO     | 54 -     ✅ Found positions:
+04:53:14 | INFO     | 56 -         P1: EP
+04:53:14 | INFO     | 56 -         P2: CO
+04:53:14 | INFO     | 56 -         P3: BTN
+04:53:14 | INFO     | 56 -         P4: SB
+04:53:14 | INFO     | 56 -         P5: NO
+04:53:14 | INFO     | 56 -         P6: BB
+04:53:14 | ERROR    | 119 - ❌ Error extracting bid text at (390, 333, 40, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:14 | ERROR    | 119 - ❌ Error extracting bid text at (200, 310, 40, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:14 | ERROR    | 119 - ❌ Error extracting bid text at (200, 212, 45, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:14 | ERROR    | 119 - ❌ Error extracting bid text at (462, 165, 45, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:14 | ERROR    | 119 - ❌ Error extracting bid text at (578, 212, 30, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:14 | ERROR    | 119 - ❌ Error extracting bid text at (578, 310, 25, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:14 | INFO     | 44 - Created new game for 6_move
+04:53:14 | INFO     | 173 -     📷 Saved 6_move_result.png with: 4 player_cards, 6 positions
+04:53:14 | INFO     | 90 - 
+📷 Processing image 3: 7_move
+04:53:14 | INFO     | 91 - ----------------------------------------
+04:53:14 | INFO     | 49 - 📁 Created window folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move\7_move
+04:53:14 | INFO     | 54 -     ✅ Found positions:
+04:53:14 | INFO     | 56 -         P1: MP
+04:53:14 | INFO     | 56 -         P2: CO
+04:53:14 | INFO     | 56 -         P3: BTN_fold
+04:53:14 | INFO     | 56 -         P4: SB_fold
+04:53:14 | INFO     | 56 -         P5: BB
+04:53:14 | INFO     | 56 -         P6: EP_fold
+04:53:14 | ERROR    | 119 - ❌ Error extracting bid text at (390, 333, 40, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:14 | ERROR    | 119 - ❌ Error extracting bid text at (200, 310, 40, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:14 | ERROR    | 119 - ❌ Error extracting bid text at (200, 212, 45, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:14 | ERROR    | 119 - ❌ Error extracting bid text at (462, 165, 45, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:14 | ERROR    | 119 - ❌ Error extracting bid text at (578, 212, 30, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:14 | ERROR    | 119 - ❌ Error extracting bid text at (578, 310, 25, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:14 | INFO     | 44 - Created new game for 7_move
+04:53:14 | INFO     | 173 -     📷 Saved 7_move_result.png with: 4 player_cards, 6 positions, 4 actions
+04:53:14 | INFO     | 90 - 
+📷 Processing image 4: 8_move
+04:53:14 | INFO     | 91 - ----------------------------------------
+04:53:14 | INFO     | 49 - 📁 Created window folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move\8_move
+04:53:15 | INFO     | 54 -     ✅ Found positions:
+04:53:15 | INFO     | 56 -         P1: CO
+04:53:15 | INFO     | 56 -         P2: NO
+04:53:15 | INFO     | 56 -         P3: BTN
+04:53:15 | INFO     | 56 -         P4: SB
+04:53:15 | INFO     | 56 -         P5: BB
+04:53:15 | INFO     | 56 -         P6: EP
+04:53:15 | ERROR    | 119 - ❌ Error extracting bid text at (390, 333, 40, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:15 | ERROR    | 119 - ❌ Error extracting bid text at (200, 310, 40, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:15 | ERROR    | 119 - ❌ Error extracting bid text at (200, 212, 45, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:15 | ERROR    | 119 - ❌ Error extracting bid text at (462, 165, 45, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:15 | ERROR    | 119 - ❌ Error extracting bid text at (578, 212, 30, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:15 | ERROR    | 119 - ❌ Error extracting bid text at (578, 310, 25, 15): tesseract is not installed or it's not in your PATH. See README file for more information.
+04:53:15 | INFO     | 44 - Created new game for 8_move
+04:53:15 | INFO     | 173 -     📷 Saved 8_move_result.png with: 4 player_cards, 6 positions, 1 actions
+04:53:15 | INFO     | 112 - 🔄 Detection changed - notified observers at 2025-08-09T04:53:15.118462
+04:53:23 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:53:23 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:53:23 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:53:23 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:53:23 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:53:23 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:53:23 | INFO     | 59 - 📊 All windows unchanged
+04:53:33 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:53:33 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:53:33 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:53:33 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:53:33 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:53:33 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:53:33 | INFO     | 59 - 📊 All windows unchanged
+04:53:43 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:53:43 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:53:43 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:53:43 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:53:43 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:53:43 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:53:43 | INFO     | 59 - 📊 All windows unchanged
+04:53:53 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:53:53 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:53:53 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:53:53 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:53:53 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:53:53 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:53:53 | INFO     | 59 - 📊 All windows unchanged
+04:54:03 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:54:03 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:54:03 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:54:03 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:54:03 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:54:03 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:54:03 | INFO     | 59 - 📊 All windows unchanged
+04:54:13 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:54:13 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:54:13 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:54:13 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:54:13 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:54:13 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:54:13 | INFO     | 59 - 📊 All windows unchanged
+04:54:23 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:54:23 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:54:23 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:54:23 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:54:23 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:54:23 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:54:23 | INFO     | 59 - 📊 All windows unchanged
+04:54:33 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:54:33 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:54:33 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:54:33 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:54:33 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:54:33 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:54:33 | INFO     | 59 - 📊 All windows unchanged
+04:54:43 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:54:43 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:54:43 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:54:43 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:54:43 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:54:43 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:54:43 | INFO     | 59 - 📊 All windows unchanged
+04:54:53 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:54:53 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:54:53 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:54:53 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:54:53 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:54:53 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:54:53 | INFO     | 59 - 📊 All windows unchanged
+04:55:03 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:55:03 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:55:03 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:55:03 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:55:03 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:55:03 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:55:03 | INFO     | 59 - 📊 All windows unchanged
+04:55:13 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:55:13 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:55:13 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:55:13 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:55:13 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:55:13 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:55:13 | INFO     | 59 - 📊 All windows unchanged
+04:55:21 | INFO     | 62 - ✅ Detection scheduler stopped
+04:55:21 | INFO     | 59 - ✅ All services stopped
+04:55:32 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:55:32 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:55:32 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:55:32 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:55:32 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:55:32 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:55:32 | INFO     | 53 - 🔍 Processing 4 changed/new images out of 4 total
+04:55:32 | INFO     | 90 - 
+📷 Processing image 1: 3_move_tern
+04:55:32 | INFO     | 91 - ----------------------------------------
+04:55:32 | INFO     | 49 - 📁 Created window folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move\3_move_tern
+04:55:32 | INFO     | 25 - 📁 Loading templates from: C:\Users\Home\omaha-reader\resources\templates\canada\player_cards
+04:55:32 | INFO     | 36 - ✅ Loaded 52 templates: ['2C', '2D', '2H', '2S', '3C', '3D', '3H', '3S', '4C', '4D', '4H', '4S', '5C', '5D', '5H', '5S', '6C', '6D', '6H', '6S', '7C', '7D', '7H', '7S', '8C', '8D', '8H', '8S', '9C', '9D', '9H', '9S', 'AC', 'AD', 'AH', 'AS', 'JC', 'JD', 'Jh', 'JS', 'KC', 'KD', 'KH', 'KS', 'QC', 'QD', 'QH', 'QS', 'TC', 'TD', 'TH', 'TS']
+04:55:33 | INFO     | 25 - 📁 Loading templates from: C:\Users\Home\omaha-reader\resources\templates\canada\table_cards
+04:55:33 | INFO     | 36 - ✅ Loaded 52 templates: ['2C', '2D', '2H', '2S', '3C', '3D', '3H', '3S', '4C', '4D', '4H', '4S', '5C', '5D', '5H', '5S', '6C', '6D', '6H', '6S', '7C', '7D', '7H', '7S', '8C', '8D', '8H', '8S', '9C', '9D', '9H', '9S', 'AC', 'AD', 'AH', 'AS', 'JC', 'JD', 'JH', 'JS', 'KC', 'KD', 'KH', 'KS', 'QC', 'QD', 'QH', 'QS', 'TC', 'TD', 'TH', 'TS']
+04:55:33 | INFO     | 25 - 📁 Loading templates from: C:\Users\Home\omaha-reader\resources\templates\canada\positions
+04:55:33 | INFO     | 36 - ✅ Loaded 18 templates: ['BB', 'BB_fold', 'BB_low', 'BTN', 'BTN_fold', 'BTN_fold_red', 'CO', 'CO_fold', 'EP', 'EP_fold', 'EP_low', 'folds', 'MP', 'MP_fold', 'NO', 'open_raises', 'SB', 'SB_fold']
+04:55:33 | INFO     | 54 -     ✅ Found positions:
+04:55:33 | INFO     | 56 -         P1: MP
+04:55:33 | INFO     | 56 -         P2: CO
+04:55:33 | INFO     | 56 -         P3: BTN_fold
+04:55:33 | INFO     | 56 -         P4: SB_fold
+04:55:33 | INFO     | 56 -         P5: BB_low
+04:55:33 | INFO     | 56 -         P6: EP_fold
+04:55:33 | INFO     | 25 - 📁 Loading templates from: C:\Users\Home\omaha-reader\resources\templates\canada\moves
+04:55:33 | INFO     | 36 - ✅ Loaded 4 templates: ['call_35', 'check', 'fold', 'or_35']
+04:55:33 | INFO     | 44 - Created new game for 3_move_tern
+04:55:33 | INFO     | 173 -     📷 Saved 3_move_tern_result.png with: 4 player_cards, 4 table_cards, 6 positions, 8 actions
+04:55:33 | INFO     | 90 - 
+📷 Processing image 2: 6_move
+04:55:33 | INFO     | 91 - ----------------------------------------
+04:55:33 | INFO     | 49 - 📁 Created window folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move\6_move
+04:55:33 | INFO     | 54 -     ✅ Found positions:
+04:55:33 | INFO     | 56 -         P1: EP
+04:55:33 | INFO     | 56 -         P2: CO
+04:55:33 | INFO     | 56 -         P3: BTN
+04:55:33 | INFO     | 56 -         P4: SB
+04:55:33 | INFO     | 56 -         P5: NO
+04:55:33 | INFO     | 56 -         P6: BB
+04:55:33 | INFO     | 44 - Created new game for 6_move
+04:55:33 | INFO     | 173 -     📷 Saved 6_move_result.png with: 4 player_cards, 6 positions
+04:55:33 | INFO     | 90 - 
+📷 Processing image 3: 7_move
+04:55:33 | INFO     | 91 - ----------------------------------------
+04:55:33 | INFO     | 49 - 📁 Created window folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move\7_move
+04:55:34 | INFO     | 54 -     ✅ Found positions:
+04:55:34 | INFO     | 56 -         P1: MP
+04:55:34 | INFO     | 56 -         P2: CO
+04:55:34 | INFO     | 56 -         P3: BTN_fold
+04:55:34 | INFO     | 56 -         P4: SB_fold
+04:55:34 | INFO     | 56 -         P5: BB
+04:55:34 | INFO     | 56 -         P6: EP_fold
+04:55:34 | INFO     | 44 - Created new game for 7_move
+04:55:34 | INFO     | 173 -     📷 Saved 7_move_result.png with: 4 player_cards, 6 positions, 4 actions
+04:55:34 | INFO     | 90 - 
+📷 Processing image 4: 8_move
+04:55:34 | INFO     | 91 - ----------------------------------------
+04:55:34 | INFO     | 49 - 📁 Created window folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move\8_move
+04:55:34 | INFO     | 54 -     ✅ Found positions:
+04:55:34 | INFO     | 56 -         P1: CO
+04:55:34 | INFO     | 56 -         P2: NO
+04:55:34 | INFO     | 56 -         P3: BTN
+04:55:34 | INFO     | 56 -         P4: SB
+04:55:34 | INFO     | 56 -         P5: BB
+04:55:34 | INFO     | 56 -         P6: EP
+04:55:34 | INFO     | 44 - Created new game for 8_move
+04:55:34 | INFO     | 173 -     📷 Saved 8_move_result.png with: 4 player_cards, 6 positions, 1 actions
+04:55:34 | INFO     | 112 - 🔄 Detection changed - notified observers at 2025-08-09T04:55:34.927082
+04:55:42 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:55:42 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:55:42 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:55:42 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:55:42 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:55:42 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:55:42 | INFO     | 59 - 📊 All windows unchanged
+04:55:52 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:55:52 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:55:52 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:55:52 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:55:52 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:55:52 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:55:52 | INFO     | 59 - 📊 All windows unchanged
+04:56:02 | INFO     | 101 - 🔍 Loading 4 images from debug folder: C:\Users\Home\omaha-reader\src/test/resources/tables/test_move
+04:56:02 | INFO     | 117 -   ✓ Loaded: 3_move_tern.png → window: 3_move_tern
+04:56:02 | INFO     | 117 -   ✓ Loaded: 6_move.png → window: 6_move
+04:56:02 | INFO     | 117 -   ✓ Loaded: 7_move.png → window: 7_move
+04:56:02 | INFO     | 117 -   ✓ Loaded: 8_move.png → window: 8_move
+04:56:02 | INFO     | 129 - ✅ Loaded 4 images from debug folder
+04:56:02 | INFO     | 59 - 📊 All windows unchanged
+04:56:05 | INFO     | 62 - ✅ Detection scheduler stopped
+04:56:05 | INFO     | 59 - ✅ All services stopped

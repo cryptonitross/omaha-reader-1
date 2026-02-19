@@ -81,7 +81,7 @@ class Game:
             return []
 
         formatted = []
-        for player_num, position  in enumerate(self.positions.values(), 1):
+        for player_num, position in sorted(self.positions.items()):
             formatted.append({
                 'player': player_num,
                 'player_label': f'Player {player_num}',
@@ -89,6 +89,27 @@ class Game:
                 'is_main_player': player_num == 1
             })
         return formatted
+
+    def get_hero_position(self) -> Optional[str]:
+        hero_detection = self.positions.get(1)
+        if hero_detection is None or not hero_detection.position_name:
+            return None
+
+        position_name = hero_detection.position_name.strip().upper()
+        for suffix in ("_FOLD", "_LOW"):
+            if position_name.endswith(suffix):
+                position_name = position_name[:-len(suffix)]
+
+        return position_name
+
+    def get_preflop_advice_for_web(self) -> Optional[Dict]:
+        from src.core.service.preflop_strategy_service import PreflopStrategyService
+
+        return PreflopStrategyService.get_btn_open_advice(
+            player_cards=self.player_cards,
+            positions=self.positions,
+            street=self.get_street(),
+        )
 
     def get_moves_for_web(self) -> List[Dict]:
         if not self.move_history:
@@ -217,6 +238,8 @@ class Game:
             'player_cards': self.get_player_cards_for_web(),
             'table_cards': self.get_table_cards_for_web(),
             'positions': self.get_positions_for_web(),
+            'hero_position': self.get_hero_position(),
+            'preflop_advice': self.get_preflop_advice_for_web(),
             'moves': self.get_moves_for_web(),
             'moves_summary': self.get_moves_summary(),
             'street': self.get_street_display(),

@@ -56,6 +56,10 @@ class GameStateService:
                 # Always update player cards
                 current_game.player_cards = game_snapshot.player_cards
 
+                # Update positions when detected (needed for preflop spot logic)
+                if game_snapshot.positions:
+                    current_game.positions = game_snapshot.positions
+
         return current_game
 
     def get_current_game(self, window_name: str) -> Optional[Game]:
